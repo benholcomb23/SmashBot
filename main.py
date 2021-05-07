@@ -17,9 +17,6 @@ async def on_ready():
     print(f'{client.user} has connected, sheeeeeeeeeshh!')
 
 
-work_words = ['work', 'working', 'slack', 'qualcomm', 'twerrrk']
-
-
 # messages user to stop working if they send message about work
 @client.event
 async def on_message(message):

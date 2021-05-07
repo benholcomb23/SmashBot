@@ -10,3 +10,6 @@ entered_twerrrk_responses = [
     f'$worker. pls quit your job',
     f'not even Tyler works as much as $worker'
 ]
+
+
+work_words = ['work', 'working', 'slack', 'qualcomm', 'twerrrk']
