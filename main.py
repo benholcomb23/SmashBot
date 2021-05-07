@@ -23,6 +23,9 @@ stop_working_responses = [
 
 # pinginguser
 
+# pinginguser2
+
+
 # messages user to stop working if they send message about work
 @client.event
 async def on_message(message):
