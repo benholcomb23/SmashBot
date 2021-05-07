@@ -21,10 +21,6 @@ stop_working_responses = [
     "Do not lust after productivity, my friend!"
 ]
 
-# pinginguser
-
-# pinginguser2
-
 
 # messages user to stop working if they send message about work
 @client.event
@@ -43,10 +39,10 @@ async def on_message(message):
 async def on_voice_state_update(user, before, after):
 
     entered_twerrrk_responses = [
-        f'bro, @{user.nick}, why u on this channel... 😐😐😐',
-        f'hey everyone, @{user.nick} is WORKING',
-        f'@{user.nick}. pls quit your job',
-        f'not even Tyler works as much as @{user.nick}'
+        f'bro, {user.mention}, why u on this channel... 😐😐😐',
+        f'hey everyone, {user.mention} is WORKING',
+        f'{user.mention}. pls quit your job',
+        f'not even Tyler works as much as {user.mention}'
     ]
 
     if before.channel is None and after.channel is not None:
