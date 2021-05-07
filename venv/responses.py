@@ -1,6 +1,3 @@
-import discord
-import os
-
 stop_working_responses = [
     "Stop working.",
     "You should be smashing, not working",
