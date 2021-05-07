@@ -21,6 +21,7 @@ stop_working_responses = [
     "Do not lust after productivity, my friend!"
 ]
 
+# pinginguser
 
 # messages user to stop working if they send message about work
 @client.event
