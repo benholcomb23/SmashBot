@@ -25,7 +25,7 @@ async def on_message(message):
 
     msg = message.content
 
-    if any(word in msg.lower() for word in work_words):
+    if any(word in msg.lower() for word in responses.work_words):
         await message.channel.send(random.choice(responses.stop_working_responses))
 
 
